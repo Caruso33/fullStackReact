@@ -7,4 +7,4 @@ const recipientSchema = new Schema({
 });
 
 //creates collection calles users with schema
-model.exports = recipientSchema;
+module.exports = recipientSchema;

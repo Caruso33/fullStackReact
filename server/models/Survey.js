@@ -14,5 +14,5 @@ const surveySchema = new Schema({
   lastResponded: Date
 });
 
-//creates collection calles users with schema
+//creates collection calls users with schema
 mongoose.model('survey', surveySchema);
