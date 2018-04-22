@@ -15,4 +15,4 @@ const surveySchema = new Schema({
 });
 
 //creates collection calls users with schema
-mongoose.model('survey', surveySchema);
+mongoose.model('surveys', surveySchema);

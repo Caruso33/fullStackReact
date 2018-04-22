@@ -8,7 +8,7 @@ import reduxThunk from 'redux-thunk';
 import App from './components/App';
 import reducers from './reducers';
 
-import 'materialize-css/dist/css/materialize.css';
+import 'materialize-css/dist/css/materialize.min.css';
 
 import axios from 'axios';
 window.axios = axios;
